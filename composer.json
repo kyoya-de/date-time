@@ -1,0 +1,22 @@
+{
+  "name":"kyoya-de/date-time-formatter",
+  "description":"Formats date and time objects to locale specific strings. It uses the IntlDateFormatter class.",
+  "type":"library",
+  "version":"1.0.0",
+  "require":{
+    "php": ">=5.3.3",
+    "symfony/intl":"~2.6"
+  },
+  "suggest":{
+    "ext-intl": "to use the component with locales other than \"en\""
+  },
+  "autoload":{
+    "classmap":[""]
+  },
+  "target-dir":"Kyoya/DateTime",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
